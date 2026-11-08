@@ -50,10 +50,12 @@ update_option('default_comment_status', 'closed');
 
 $page = get_page_by_path('kstudio-home');
 if (!$page) {
+    add_filter('big_image_size_threshold', '__return_false');
     $media = array();
-    foreach (array('hero', 'wood', 'light', 'dark', 'process', 'loft') as $name) {
-        $filename = "kstudio-$name.webp";
-        $existing = get_page_by_path("kstudio-$name", OBJECT, 'attachment');
+    foreach (array('hero', 'light', 'dark', 'process', 'loft') as $name) {
+        $slug = "kstudio-$name-2k";
+        $filename = "$slug.webp";
+        $existing = get_page_by_path($slug, OBJECT, 'attachment');
         if ($existing) {
             $media[$name] = $existing->ID;
             continue;
@@ -67,7 +69,7 @@ if (!$page) {
             fwrite(STDERR, $id->get_error_message() . "\n");
             exit(1);
         }
-        wp_update_post(array('ID' => $id, 'post_name' => "kstudio-$name"));
+        wp_update_post(array('ID' => $id, 'post_name' => $slug));
         $media[$name] = $id;
     }
 

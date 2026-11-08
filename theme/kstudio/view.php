@@ -17,11 +17,11 @@ function kstudio_nav(): void {
 }
 
 function kstudio_document(string $content, string $assets, string $name, bool $static = false): void {
-    $title = $name . ' — окрашивание волос';
-    $description = 'KSTUDIO — студия колористики в стиле лофт. Оттенки волос, услуги и онлайн-запись во ВКонтакте.';
+    $title = $name . ' — Пространство Красоты';
+    $description = 'KSTUDIO Пространство Красоты. Эксперты в индустрии окрашивания. Онлайн-запись во ВКонтакте.';
     $hero_image = new WP_HTML_Tag_Processor($content);
     $hero_image->next_tag('img');
-    $hero_src = $hero_image->get_attribute('src') ?: $assets . 'media/kstudio-hero.webp';
+    $hero_src = $hero_image->get_attribute('src') ?: $assets . 'media/kstudio-hero-2k.webp';
     if ($static && str_starts_with($hero_src, './')) {
         $image_url = KSTUDIO_PUBLIC . substr($hero_src, 2);
     } else {

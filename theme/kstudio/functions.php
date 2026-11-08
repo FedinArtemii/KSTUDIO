@@ -6,6 +6,8 @@ add_action('after_setup_theme', function () {
     add_theme_support('editor-styles');
     add_editor_style('assets/site.css');
     add_theme_support('responsive-embeds');
+    add_image_size('kstudio-desktop', 1440, 0);
+    add_image_size('kstudio-wide', 1920, 0);
 });
 
 add_filter('show_admin_bar', '__return_false');
@@ -56,7 +58,7 @@ add_filter('render_block_core/image', function ($html, $block) {
     if ($tags->next_tag('img')) {
         if (in_array('hero-photo', $classes, true)) {
             $tags->set_attribute('fetchpriority', 'high');
-            $tags->set_attribute('sizes', '100vw');
+            $tags->set_attribute('sizes', '(min-width: 1200px) max(100vw, 1920px), max(100vw, 66.67svh)');
             $tags->set_attribute('loading', 'eager');
             $tags->set_attribute('data-enter-media', '');
         } else {

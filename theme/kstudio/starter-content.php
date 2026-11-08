@@ -14,7 +14,6 @@ function kstudio_seed_content(array $media): string {
     $booking = esc_url(KSTUDIO_BOOKING);
     $community = esc_url(KSTUDIO_COMMUNITY);
     $hero = $image('hero', 'hero-photo', '');
-    $wood = $image('wood', 'hero-wood', '');
     $light = $image('light', 'work-feature', 'Длинные волнистые волосы с переходом от тёмных корней к светлым прядям');
     $dark = $image('dark', 'work-side', 'Волнистые каштановые волосы, вид со спины');
     $process = $image('process', 'process-photo', 'Пряди, разделённые зажимами для работы колориста');
@@ -24,14 +23,13 @@ function kstudio_seed_content(array $media): string {
 <!-- wp:group {"tagName":"section","anchor":"top","className":"hero"} -->
 <section class="wp-block-group hero" id="top">
 $hero
-$wood
 <!-- wp:group {"className":"wrap hero-copy"} -->
 <div class="wp-block-group wrap hero-copy">
 <!-- wp:heading {"level":1,"anchor":"hero-heading"} -->
-<h1 class="wp-block-heading" id="hero-heading">Окрашивание<br>волос</h1>
+<h1 class="wp-block-heading" id="hero-heading">KSTUDIO<br>Пространство Красоты</h1>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Студия колористики</p>
+<p>Эксперты в индустрии окрашивания</p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->

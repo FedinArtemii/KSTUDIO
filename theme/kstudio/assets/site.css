@@ -29,7 +29,6 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.55 var(--text); }
 :where(h1,h2,p,figure) { margin: 0; }
 a { color: inherit; text-underline-offset: .24em; }
@@ -203,6 +202,7 @@ main .wp-block-group__inner-container { display: contents; }
 .service-answers summary:is(:hover,:focus-visible), .service-answers details[open] summary { color: var(--accent); }
 .service-answers details[open] summary::after { transform: rotate(45deg); }
 .service-answers details p { color: var(--muted); margin-bottom: 22px; }
+.service-answers details p a { display: inline-flex; align-items: center; min-height: 44px; }
 .service-answers details[open] p { animation: answer-in 180ms var(--ease) both; }
 @keyframes answer-in { from { opacity: .55; transform: translateY(-4px); } }
 

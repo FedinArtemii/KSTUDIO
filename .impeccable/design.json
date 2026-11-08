@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T14:52:16.614Z",
+  "title": "KSTUDIO · Фактура",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Бронза",
+        "tonalRamp": [
+          "oklch(15% 0.021 61.9)",
+          "oklch(27% 0.040 61.9)",
+          "oklch(38% 0.053 61.9)",
+          "oklch(50% 0.064 61.9)",
+          "oklch(62% 0.069 61.9)",
+          "oklch(74% 0.062 61.9)",
+          "oklch(85% 0.044 61.9)",
+          "oklch(95% 0.020 61.9)"
+        ]
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Графит",
+        "tonalRamp": [
+          "oklch(15% 0.001 106.6)",
+          "oklch(27% 0.001 106.6)",
+          "oklch(38% 0.002 106.6)",
+          "oklch(50% 0.002 106.6)",
+          "oklch(62% 0.002 106.6)",
+          "oklch(74% 0.002 106.6)",
+          "oklch(85% 0.001 106.6)",
+          "oklch(95% 0.001 106.6)"
+        ]
+      },
+      "charcoal": {
+        "role": "neutral",
+        "displayName": "Угольный серый",
+        "tonalRamp": [
+          "oklch(15% 0.001 106.5)",
+          "oklch(27% 0.001 106.5)",
+          "oklch(38% 0.001 106.5)",
+          "oklch(50% 0.002 106.5)",
+          "oklch(62% 0.002 106.5)",
+          "oklch(74% 0.002 106.5)",
+          "oklch(85% 0.001 106.5)",
+          "oklch(95% 0.001 106.5)"
+        ]
+      },
+      "cream-ink": {
+        "role": "neutral",
+        "displayName": "Кремовый текст",
+        "tonalRamp": [
+          "oklch(15% 0.003 76.6)",
+          "oklch(27% 0.006 76.6)",
+          "oklch(38% 0.008 76.6)",
+          "oklch(50% 0.010 76.6)",
+          "oklch(62% 0.011 76.6)",
+          "oklch(74% 0.010 76.6)",
+          "oklch(85% 0.007 76.6)",
+          "oklch(95% 0.003 76.6)"
+        ]
+      },
+      "muted-ink": {
+        "role": "neutral",
+        "displayName": "Приглушённый текст",
+        "tonalRamp": [
+          "oklch(15% 0.005 73.7)",
+          "oklch(27% 0.010 73.7)",
+          "oklch(38% 0.013 73.7)",
+          "oklch(50% 0.015 73.7)",
+          "oklch(62% 0.017 73.7)",
+          "oklch(74% 0.015 73.7)",
+          "oklch(85% 0.011 73.7)",
+          "oklch(95% 0.005 73.7)"
+        ]
+      },
+      "milk-paper": {
+        "role": "neutral",
+        "displayName": "Молочная бумага",
+        "tonalRamp": [
+          "oklch(15% 0.005 78.2)",
+          "oklch(27% 0.011 78.2)",
+          "oklch(38% 0.014 78.2)",
+          "oklch(50% 0.017 78.2)",
+          "oklch(62% 0.018 78.2)",
+          "oklch(74% 0.016 78.2)",
+          "oklch(85% 0.012 78.2)",
+          "oklch(95% 0.005 78.2)"
+        ]
+      },
+      "warm-ink": {
+        "role": "neutral",
+        "displayName": "Тёплый тёмный текст",
+        "tonalRamp": [
+          "oklch(15% 0.002 67.5)",
+          "oklch(27% 0.004 67.5)",
+          "oklch(38% 0.006 67.5)",
+          "oklch(50% 0.007 67.5)",
+          "oklch(62% 0.007 67.5)",
+          "oklch(74% 0.007 67.5)",
+          "oklch(85% 0.005 67.5)",
+          "oklch(95% 0.002 67.5)"
+        ]
+      },
+      "gallery-paper": {
+        "role": "neutral",
+        "displayName": "Кремовая бумага",
+        "tonalRamp": [
+          "oklch(15% 0.004 78.3)",
+          "oklch(27% 0.008 78.3)",
+          "oklch(38% 0.011 78.3)",
+          "oklch(50% 0.013 78.3)",
+          "oklch(62% 0.014 78.3)",
+          "oklch(74% 0.012 78.3)",
+          "oklch(85% 0.009 78.3)",
+          "oklch(95% 0.004 78.3)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Разделитель",
+        "tonalRamp": [
+          "oklch(15% 0.004 63.1)",
+          "oklch(27% 0.008 63.1)",
+          "oklch(38% 0.010 63.1)",
+          "oklch(50% 0.012 63.1)",
+          "oklch(62% 0.013 63.1)",
+          "oklch(74% 0.012 63.1)",
+          "oklch(85% 0.009 63.1)",
+          "oklch(95% 0.004 63.1)"
+        ]
+      },
+      "photo-rule": {
+        "role": "neutral",
+        "displayName": "Линия поверх фотографии",
+        "tonalRamp": [
+          "oklch(15% 0.007 46.6)",
+          "oklch(27% 0.013 46.6)",
+          "oklch(38% 0.017 46.6)",
+          "oklch(50% 0.020 46.6)",
+          "oklch(62% 0.022 46.6)",
+          "oklch(74% 0.020 46.6)",
+          "oklch(85% 0.014 46.6)",
+          "oklch(95% 0.006 46.6)"
+        ]
+      },
+      "paper-focus": {
+        "role": "neutral",
+        "displayName": "Молочный фокус",
+        "tonalRamp": [
+          "oklch(15% 0.005 78.2)",
+          "oklch(27% 0.010 78.2)",
+          "oklch(38% 0.014 78.2)",
+          "oklch(50% 0.017 78.2)",
+          "oklch(62% 0.018 78.2)",
+          "oklch(74% 0.016 78.2)",
+          "oklch(85% 0.012 78.2)",
+          "oklch(95% 0.005 78.2)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Крупный заголовок",
+        "purpose": "Заголовок первого экрана. Размер адаптируется к ширине."
+      },
+      "headline": {
+        "displayName": "Заголовок раздела",
+        "purpose": "Название крупной секции."
+      },
+      "wordmark": {
+        "displayName": "Словесный знак",
+        "purpose": "Имя KSTUDIO в шапке и подвале."
+      },
+      "body": {
+        "displayName": "Основной текст",
+        "purpose": "Абзацы, ссылки и меню."
+      },
+      "action": {
+        "displayName": "Действие",
+        "purpose": "Текст основной кнопки."
+      },
+      "caption": {
+        "displayName": "Подпись",
+        "purpose": "Вспомогательный текст в подвале."
+      }
+    },
+    "motion": [
+      {
+        "name": "ease-standard",
+        "value": "cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Переходы между состояниями элементов управления."
+      },
+      {
+        "name": "hover",
+        "value": "150ms",
+        "purpose": "Подчёркивание навигации и смена цвета заголовка вопроса."
+      },
+      {
+        "name": "press",
+        "value": "90ms",
+        "purpose": "Нажатие кнопки."
+      },
+      {
+        "name": "menu-and-answer",
+        "value": "180ms",
+        "purpose": "Появление мобильного меню и текста ответа."
+      },
+      {
+        "name": "hero-ease",
+        "value": "cubic-bezier(.22, 1, .36, 1)",
+        "purpose": "Появление заголовка и изображения первого экрана."
+      },
+      {
+        "name": "hero-title",
+        "value": "700ms",
+        "purpose": "Появление заголовка первого экрана."
+      },
+      {
+        "name": "gallery-develop",
+        "value": "1300ms",
+        "purpose": "Однократное проявление кадра из монохромного отпечатка."
+      },
+      {
+        "name": "gallery-light",
+        "value": "1200ms",
+        "purpose": "Полоса света на проявляющемся кадре."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow-max",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Кнопка записи",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Основное действие на тёмной плоскости.",
+      "html": "<a class=\"ds-booking\" href=\"https://vk.ru/uslugi-229430084\">Записаться в VK<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M2 14 14 2M4 2h10v10\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/></svg></a>",
+      "css": ".ds-booking{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:space-between;gap:20px;min-height:62px;min-width:271px;padding:0 20px;border:1px solid transparent;border-radius:0;background:var(--paper, #eee6da);color:var(--paper-ink, #211e1b);font:620 18px/1.55 var(--text, \"Golos Text\", \"Segoe UI\", sans-serif);text-decoration:none;transition:transform 90ms var(--ease, cubic-bezier(.2,.8,.2,1)),background-color 120ms var(--ease, cubic-bezier(.2,.8,.2,1))}.ds-booking svg{flex:none}.ds-booking:focus-visible{outline:2px solid var(--accent, #c59c79);outline-offset:5px;background:#fff7eb}.ds-booking:active{transform:translateY(1px) scale(.985)}@media (hover:hover) and (pointer:fine){.ds-booking:hover{transform:translateY(-1px)}.ds-booking:active{transform:translateY(1px) scale(.985)}}@media (max-width:760px){.ds-booking{width:100%;min-width:0;min-height:56px;font-size:16px}}@media (prefers-reduced-motion:reduce){.ds-booking{transition:none}.ds-booking:is(:hover,:active){transform:none}}"
+    },
+    {
+      "name": "Словесный знак",
+      "kind": "custom",
+      "refersTo": "wordmark",
+      "description": "Подпись KSTUDIO в шапке и подвале.",
+      "html": "<div class=\"ds-brand-ground\"><a class=\"ds-brand\" href=\"#top\" aria-label=\"KSTUDIO — в начало\">KSTUDIO</a></div>",
+      "css": ".ds-brand-ground{padding:12px 20px;background:var(--bg, #171716)}.ds-brand{display:inline-flex;align-items:center;min-height:44px;color:var(--ink, #f4efe8);font:720 30px/1 var(--display, Commissioner, \"Segoe UI\", sans-serif);letter-spacing:-.025em;text-decoration:none}.ds-brand:focus-visible{outline:2px solid var(--accent, #c59c79);outline-offset:5px}@media (max-width:760px){.ds-brand{font-size:24px}}"
+    },
+    {
+      "name": "Навигация",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Ссылки главного меню с подчёркиванием при наведении и фокусе.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Основное меню\"><a href=\"#works\">Работы</a><a href=\"#services\">Услуги</a><a href=\"#studio\">Студия</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:42px;padding:0 20px;border-bottom:1px solid #80716a;background:var(--bg, #171716);color:var(--ink, #f4efe8);font:400 16px/1.55 var(--text, \"Golos Text\", \"Segoe UI\", sans-serif)}.ds-nav a{display:inline-flex;align-items:center;min-height:44px;color:inherit;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:.24em;transition:text-decoration-color 150ms var(--ease, cubic-bezier(.2,.8,.2,1))}.ds-nav a:is(:hover,:focus-visible){text-decoration-color:currentColor}.ds-nav a:focus-visible{outline:2px solid var(--accent, #c59c79);outline-offset:5px}@media (prefers-reduced-motion:reduce){.ds-nav a{transition:none}}"
+    },
+    {
+      "name": "Мобильное меню",
+      "kind": "nav",
+      "refersTo": "mobile-menu",
+      "description": "Графитовая панель открывается нативным переключателем.",
+      "html": "<details class=\"ds-menu\"><summary aria-label=\"Меню\"><span></span><span></span></summary><nav aria-label=\"Основное меню\"><a href=\"#works\">Работы</a><a href=\"#services\">Услуги</a><a href=\"#studio\">Студия</a><a href=\"https://vk.ru/kstudio_colorist74\">ВКонтакте<svg width=\"12\" height=\"12\" viewBox=\"0 0 16 16\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M2 14 14 2M4 2h10v10\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/></svg></a></nav></details>",
+      "css": ".ds-menu{max-width:320px;padding:8px 20px 12px;background:var(--bg, #171716);color:var(--ink, #f4efe8);font:400 16px/1.55 var(--text, \"Golos Text\", \"Segoe UI\", sans-serif)}.ds-menu summary{display:grid;place-content:center end;gap:8px;margin-inline-start:auto;width:44px;height:44px;cursor:pointer;list-style:none}.ds-menu summary::-webkit-details-marker{display:none}.ds-menu summary span{width:28px;height:1px;background:currentColor;transition:transform 160ms var(--ease, cubic-bezier(.2,.8,.2,1))}.ds-menu[open] summary span:first-child{transform:translateY(4.5px) rotate(45deg)}.ds-menu[open] summary span:last-child{transform:translateY(-4.5px) rotate(-45deg)}.ds-menu nav{display:grid;padding:12px 20px;border:1px solid var(--rule, #57504a);background:var(--bg, #171716)}.ds-menu a{display:inline-flex;align-items:center;gap:10px;min-height:44px;color:inherit;text-decoration:none}.ds-menu a+a{border-top:1px solid var(--rule, #57504a)}.ds-menu :is(a,summary):focus-visible{outline:2px solid var(--accent, #c59c79);outline-offset:5px}@media (prefers-reduced-motion:reduce){.ds-menu summary span{transition:none}}"
+    },
+    {
+      "name": "Раскрывающийся ответ",
+      "kind": "custom",
+      "refersTo": "disclosure",
+      "description": "Вопрос открывает пояснение, при этом меняется цвет заголовка и положение значка.",
+      "html": "<div class=\"ds-answer-ground\"><details class=\"ds-answer\"><summary>Где посмотреть услуги?</summary><p>Откройте <a href=\"https://vk.ru/uslugi-229430084\">страницу услуг и записи в VK</a>.</p></details></div>",
+      "css": ".ds-answer-ground{padding:12px 20px;background:var(--surface, #232322);color:var(--ink, #f4efe8);font:400 16px/1.55 var(--text, \"Golos Text\", \"Segoe UI\", sans-serif)}.ds-answer{border-block:1px solid var(--rule, #57504a)}.ds-answer summary{box-sizing:border-box;display:flex;justify-content:space-between;align-items:center;gap:15px;min-height:72px;padding-block:14px;font-size:clamp(17px, 1.6vw, 24px);cursor:pointer;list-style:none;transition:color 150ms var(--ease, cubic-bezier(.2,.8,.2,1))}.ds-answer summary::-webkit-details-marker{display:none}.ds-answer summary::after{flex:0 0 16px;height:16px;content:\"\";background:linear-gradient(currentColor,currentColor) center/16px 1px no-repeat,linear-gradient(currentColor,currentColor) center/1px 16px no-repeat;transition:transform 160ms var(--ease, cubic-bezier(.2,.8,.2,1))}.ds-answer summary:is(:hover,:focus-visible),.ds-answer[open] summary{color:var(--accent, #c59c79)}.ds-answer[open] summary::after{transform:rotate(45deg)}.ds-answer p{max-width:40ch;margin:0 0 22px;color:var(--muted, #c9c1b7)}.ds-answer a{color:inherit;text-underline-offset:.24em}.ds-answer :is(a,summary):focus-visible{outline:2px solid var(--accent, #c59c79);outline-offset:5px}@media (prefers-reduced-motion:reduce){.ds-answer summary,.ds-answer summary::after{transition:none}}"
+    },
+    {
+      "name": "Фотокадр",
+      "kind": "card",
+      "refersTo": "gallery",
+      "description": "Прямоугольный кадр на кремовой плоскости галереи.",
+      "html": "<div class=\"ds-gallery\"><figure class=\"ds-frame\"><img src=\"data:image/webp;base64,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\" width=\"225\" height=\"300\" alt=\"Длинные волнистые волосы с переходом от тёмных корней к светлым прядям\"></figure></div>",
+      "css": ".ds-gallery{padding:20px;background:#e9e3da;color:var(--paper-ink, #211e1b)}.ds-frame{max-width:340px;aspect-ratio:4/5;margin:0;overflow:hidden}.ds-frame img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 49%}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Фактура",
+    "overview": "Крупные планы волос показывают оттенок, блеск и рисунок прядей. Графитовые плоскости и тёмное дерево переносят на сайт материалы лофта. Крупные заголовки и свободные поля дают фотографии место.",
+    "keyCharacteristics": [
+      "Тёплые нейтрали и бронзовые штрихи.",
+      "Прямые кромки, общий край контента, крупные фотокадры.",
+      "Короткие движения в ответ на действие и однократное проявление фотографии."
+    ],
+    "dos": [
+      "Сохраняйте детали прядей и естественный цвет в кадрах с оттенками волос.",
+      "Поддерживайте видимый клавиатурный фокус и область нажатия от `touch-min`.",
+      "Указывайте, где показаны референсы. Для каждой фотографии храните сведения об источнике и лицензии."
+    ],
+    "donts": [
+      "Избегайте скруглённых плашек и падающих теней на плоскостях.",
+      "Исключайте зацикленное движение и движение фотографии за указателем."
+    ]
+  }
+}
